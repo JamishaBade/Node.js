@@ -18,4 +18,12 @@
 - path resolution: node.js searches for modules in core, node_modules, and file paths.
   ```
   const fs = require("fs");
+  const http= required('https');
+  const express=required('expression);
   ```
+
+# Protocols:
+
+- HTTP: Hyper text transfer protocol (no encryption)
+- HTTPS: Hyper text transfer protocol secure
+- TCP: transmission control protocol
