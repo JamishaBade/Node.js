@@ -1,6 +1,6 @@
 Node.js is single threaded
 
-- asynchrnouse opeartion
+- asynchronous opeartion
 
 to exit event loop we need to do
 
