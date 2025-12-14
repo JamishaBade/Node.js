@@ -16,7 +16,12 @@
 - caching : modules are cached after the first require call.
 - .js is added authomatically and is not needed to at the end of module name.
 - path resolution: node.js searches for modules in core, node_modules, and file paths.
+
   ```
+
+  the syntax:
+  const moduleName=requrire("module");
+
   const fs = require("fs");
   const http= required('https');
   const express=required('expression);
