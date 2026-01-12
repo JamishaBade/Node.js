@@ -4,5 +4,5 @@ console.log(req.url, req.method, req.headers); // prints req related stuff in th
 process.exit(); //stops the server 
 
 });
-const port=3001; //port number where the server is going to run 
+const port=3005; //port number where the server is going to run 
 server.listen(port, ()=>{console.log(`https://localhost:${port}`)}) // This starts the server in the port 3001
