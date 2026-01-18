@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
     "<body><h1>I miss nepalalalaldjflksdjfksdjkf</h1></body>"
   );
   res.write("</html>");
-  res.end();
+  return res.end();
 });
 
 const PORT = 3001;
