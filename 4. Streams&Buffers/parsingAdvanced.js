@@ -1,5 +1,4 @@
-const http = require("http");
-server = http.createServer((req, res) => {
+const requestHandling =(req, res) => {
   if (req.url === "/" && req.method === "GET") {
     res.write(`
             <html>
@@ -41,6 +40,6 @@ server = http.createServer((req, res) => {
 
   res.statusCode = 404;
   res.end("Not Found");
-});
+};
 
-server.listen(3006, () => console.log("http://localhost:3006"));
+module.exports=requestHandling; //exporting the module for use in other files
