@@ -1,0 +1,17 @@
+{
+  "name": "npm-learn",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "license": "ISC",
+  "author": "Jamisha Bade",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "khol-mula": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
