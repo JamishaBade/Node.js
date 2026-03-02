@@ -29,6 +29,16 @@ app.get("/submit-details", (req, res) => {
     console.log("This is a second routing middleware", req.url, req.method);
     res.send("<p>This is the second middleware for submit details</p>");
 });
+app.get("/cost", (req, res, next) => {
+    console.log("This is a new first middleware for cost", req.url, req.method);
+    next(); // move to next middleware
+});
+
+// Second middleware for "/submit-details"
+app.get("/cost", (req, res) => {
+    console.log("This is a second routing middleware for cost", req.url, req.method);
+    res.send("<p>This is the second middleware for cost</p>");
+});
 
 
 //server
